@@ -1,0 +1,14 @@
+{
+  "p1": {
+    "func": "lambda x: x**3 + x - 1",
+    "interval": [0, 1],
+    "tol": 1e-6,
+    "root_ref":    0.682328224182129
+  },
+  "p2": {
+    "func": "lambda x: 4*math.cos(x) - x + 3",
+    "interval": [1, 3],
+    "tol": 1e-8,
+    "root_ref":    1.859843559563160
+  }
+}

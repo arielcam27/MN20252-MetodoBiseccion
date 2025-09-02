@@ -28,3 +28,20 @@ Desarrollar una función en Python que encuentre la aproximación de una raíz d
        """
    ```
 
+2. **Validaciones obligatorias**
+
+- Verificar que $a < b$.
+- Comprobar que $f(a)$ y $f(b)$ tengan signos opuestos $f(a) \times f(b) < 0$.
+- Lanzar `ValueError` con mensaje descriptivo si alguna condición falla.
+
+3. **Criterio de parada**
+
+- El algoritmo termina cuando $|b-a| < tol$ o cuando se alcanza `max_iter`.
+- En caso de alcanzar `max_iter` sin cumplir la tolerancia, lanzar `RuntimeError`.
+
+4. **Documentación**
+
+- ¿Docstring?
+- Comentarios claros dentro del cuerpo de la función.
+
+(Declaración uso de IA: Se usó Lumo de Proton como apoyo para la generación de esta plantilla. Revisé y adecué el contenido manualmente.)

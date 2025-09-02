@@ -6,7 +6,7 @@ Desarrollar una función en Python que encuentre la aproximación de una raíz d
 
 1. **Función principal**  
    ```python
-   def biseccion(f, a, b, tol=1e-6, max_iter=100):
+   def biseccion(f, a, b, tol, max_iter):
        """
        Devuelve una aproximación de la raíz de f en [a, b].
 
